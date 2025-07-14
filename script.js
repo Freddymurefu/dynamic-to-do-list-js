@@ -28,7 +28,7 @@ function addTask() {
       // Create a "Remove" button and style it
        const buttonEl = document.createElement("button")
        buttonEl.textContent = "Remove"
-       buttonEl.className = "remove-btn"
+       buttonEl.classList.add = "remove-btn"
 
       // Add an event listener to remove the task when "Remove" is clicked
        buttonEl.addEventListener("click", function(){
